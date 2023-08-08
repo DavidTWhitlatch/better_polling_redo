@@ -1,0 +1,21 @@
+{
+  "name": "better_polling_redo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "setup": "psql -f ./db/setup.sql"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "eslint": "8.46.0",
+    "eslint-config-next": "13.4.13",
+    "next": "13.4.13",
+    "pg-promise": "^11.5.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  }
+}
